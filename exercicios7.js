@@ -9,7 +9,7 @@ const companies = [
 ]
 
 const newValuesCompanies = companies.map((company)  => {
-    company.marketValue += company.marketValue * 1.1    
+    company.marketValue += company.marketValue * 0.1    
     
     return company
 })
